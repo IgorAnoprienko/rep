@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+	<center>
+		<form action="SelectTable" target="forTable" name="selectTable"
+			method="POST">
+			<b>Виберіть таблицю</b>
+			
+			<table id="menu" width="120">
+				<tr>
+					<td align="left"><input id="book" type="radio" name="className" value="Book"> 
+				<label for="book">Book</label> </td>
+				</tr>
+				<tr>
+					<td align="left"><input id="provider" type="radio"name="className" value="Provider"> 
+				<label for="provider">Provider</label></td>
+				<tr>
+					<td align="left"><input id="supply" type="radio" name="className" value="Supply"> 
+				<label for="supply">Supply</label></td>
+				</tr>
+				<tr>
+					<td align="left"><input id="orders" type="radio" name="className" value="Orders"> 
+				<label for="orders">Orders</label></td>
+				</tr>
+				<tr>
+					<td align="left"><input id="customer" type="radio" name="className" value="Customer"> 
+				<label for="customer">Customer</label> </td>
+				</tr>
+			</table>
+			<input id="download" type="submit" value="Завантажити">
+
+		</form>
+	</center>
+</body>
+</html>
